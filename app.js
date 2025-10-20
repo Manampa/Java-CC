@@ -26,10 +26,12 @@
 
 
 
-let hot = true
+let cash = 50
+let price = 40
+let storeOpen = true
 
-hot? ''
+let str = cash >= price && storeOpen ?'give receipt' : 'do not give receipt'
 
-
+console.log(str)
 
 // 10:32 2.3 conditionals module 3
