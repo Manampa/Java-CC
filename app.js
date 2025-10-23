@@ -7,8 +7,8 @@
 
 
 
-// let cash = 45   
-// let price = 50
+// let cash = 55   
+// let price = 55
 // let difference = cash - price
 
 // if (cash > price) {
@@ -51,26 +51,43 @@
 
 // Common interview question below!!!
 
+// for (let i = 1; i <= 20; ++i) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log (`${i} --> Frontend Simplified` )
+//     }
+//     else if (i % 3 === 0) {
+//         console.log (`${i} --> Frontend` )
+//     }
+//     else if (i % 5 === 0) {
+//         console.log (`${i} --> Simplified` )
+//     }
+//     else {
+//         console.log (`${i}`)
+//     }
+// }
+
+
+
+
+
+
+
 for (let i = 1; i <= 20; ++i) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log (`${i} --> Frontend Simplified` )
+        console.log (`${i} ---> Frontend Simplified`)
     }
-    else if (i % 3 === 0) {
-        console.log (`${i} --> Frontend` )
+
+    else if (i % 3 === 0){
+        console.log (`${i} ---> Frontend`)
     }
-    else if (i % 5 === 0) {
-        console.log (`${i} --> Simplified` )
+    else if (i % 5 === 0){
+        console.log (`${i} ---> Simplified`)
     }
     else {
-        console.log (`${i} ---> ${i}`)
+        console.log (`${i}`)
     }
+
 }
 
 
-
-
-
-
-
-
-// 0.01 2.4 loops
+// 16:30 2.4 loops
