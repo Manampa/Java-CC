@@ -72,22 +72,58 @@
 
 
 
-for (let i = 1; i <= 20; ++i) {
-    if (i % 3 === 0 && i % 5 === 0) {
-        console.log (`${i} ---> Frontend Simplified`)
-    }
+// for (let i = 1; i <= 20; ++i) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log (`${i} ---> Frontend Simplified`)
+//     }
 
-    else if (i % 3 === 0){
-        console.log (`${i} ---> Frontend`)
-    }
-    else if (i % 5 === 0){
-        console.log (`${i} ---> Simplified`)
-    }
-    else {
-        console.log (`${i}`)
-    }
+//     else if (i % 3 === 0){
+//         console.log (`${i} ---> Frontend`)
+//     }
+//     else if (i % 5 === 0){
+//         console.log (`${i} ---> Simplified`)
+//     }
+//     else {
+//         console.log (`${i}`)
+//     }
 
-}
+// }
 
 
-// 16:30 2.4 loops
+
+
+// const str = "frontend Simplified"
+
+// for (let i = 0; i < str.length; i++) {
+//         console.log (str[i])
+
+// }
+
+
+
+// My attempt... FAIL. start
+// function convertCelsiusToFahrenheit (fahrenheit = celsius * 1.8 + 32) {
+//         return 6
+//         // console.log("${fahrenheit}")
+// }
+
+//         console.log(convertCelsiusToFahrenheit(19));
+// My attempt... FAIL. end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 9:08 2.5 functions
