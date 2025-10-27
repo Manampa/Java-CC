@@ -101,16 +101,26 @@
 
 
 
-// My attempt... FAIL. start
+// My attempt at functions... FAIL. start
 // function convertCelsiusToFahrenheit (fahrenheit = celsius * 1.8 + 32) {
 //         return 6
 //         // console.log("${fahrenheit}")
 // }
 
 //         console.log(convertCelsiusToFahrenheit(19));
-// My attempt... FAIL. end
+// My attempt at functions... FAIL. end
 
 
+
+
+// function convertCelsiusToFahrenheit (celsius) {
+//         let fahrenheit = celsius * 1.8 + 32
+//         return fahrenheit
+// }
+
+// console.log (convertCelsiusToFahrenheit(0))
+// console.log (convertCelsiusToFahrenheit(10))
+// console.log (convertCelsiusToFahrenheit(30))
 
 
 
