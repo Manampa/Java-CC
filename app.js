@@ -132,8 +132,73 @@
 
 
 
+// let grades = [`A+`, `A`, `FAIL`]
+
+// let goodGrades = grades.filter((element) => {
+        //         if (element !== `FAIL`) {
+                //                 return true;
+                
+                //         }
+                // }) 
+                
+                // console.log (goodGrades)
+
+
+let grades = [`A+`, `A`, `FAIL`]
+
+let goodGrades = grades.filter(element => element !== `FAIL`)
+
+console.log (goodGrades)
 
 
 
 
-// 9:08 2.5 functions
+// second question(my attempt)
+
+// let grades = [`B`, `FAIL`, `FAIL`]
+
+// let badGrades = grades.filter((element) => {
+//         if (element !== `FAIL`) {
+//                 return true;
+
+//         }
+// }) 
+
+// console.log (badGrades)
+
+
+
+
+
+// third question(my attempt)
+
+// let grades = [`B`, `FAIL`, `FAIL`]
+
+// let badGrades = grades.filter((element) => {
+//         if (element !== `FAIL`) {
+//                 return false;
+
+//         }
+// }) 
+
+// console.log (badGrades)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 18:10 2.6 Arrays
