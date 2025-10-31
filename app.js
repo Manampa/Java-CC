@@ -144,11 +144,11 @@
                 // console.log (goodGrades)
 
 
-let grades = [`A+`, `A`, `FAIL`]
+// let grades = [`A+`, `A`, `FAIL`]
 
-let goodGrades = grades.filter(element => element !== `FAIL`)
+// let goodGrades = grades.filter(element => element !== `FAIL`)
 
-console.log (goodGrades)
+// console.log (goodGrades)
 
 
 
@@ -186,6 +186,19 @@ console.log (goodGrades)
 
 
 
+// let dollars = [1, 5, 10 , 3]
+
+// let cents = dollars.map ((element) =>{
+//         console.log (element)
+//         return element * 100
+// })
+// console.log (cents)
+
+let dollars = [1, 5, 10 , 3]
+
+let cents = dollars.map (element => element * 100)
+
+console.log (cents)
 
 
 
@@ -200,5 +213,4 @@ console.log (goodGrades)
 
 
 
-
-// 18:10 2.6 Arrays
+// 2.7 Objects
