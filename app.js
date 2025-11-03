@@ -186,6 +186,14 @@
 
 
 
+
+
+
+
+
+
+
+
 // let dollars = [1, 5, 10 , 3]
 
 // let cents = dollars.map ((element) =>{
@@ -194,13 +202,11 @@
 // })
 // console.log (cents)
 
-let dollars = [1, 5, 10 , 3]
+// let dollars = [1, 5, 10 , 3]
 
-let cents = dollars.map (element => element * 100)
+// let cents = dollars.map (element => element * 100)
 
-console.log (cents)
-
-
+// console.log (cents)
 
 
 
@@ -213,4 +219,36 @@ console.log (cents)
 
 
 
+
+
+
+let user = {
+        username: 'david',
+        email: 'david@frontend.com',
+        password: 'david123',
+        subscriptionStatus: 'VIP',
+        discordId: 'david#0001',
+        lessonsCompleted: [0, 1, 2, 3],
+}       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 // 2.7 Objects
