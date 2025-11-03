@@ -222,16 +222,76 @@
 
 
 
-let user = {
-        username: 'david',
-        email: 'david@frontend.com',
-        password: 'david123',
-        subscriptionStatus: 'VIP',
-        discordId: 'david#0001',
-        lessonsCompleted: [0, 1, 2, 3],
-}       
+let users = [
+        {
+
+                
+                username: 'david',
+                email: 'david@frontend.com',
+                password: 'david123',
+                subscriptionStatus: 'VIP',
+                discordId: 'david#0001',
+                lessonsCompleted: [0, 1, 2, 3],
+        },
+        {
+
+                
+                username: 'david',
+                email: 'david@frontend.com',
+                password: 'david123',
+                subscriptionStatus: 'VIP',
+                discordId: 'david#0001',
+                lessonsCompleted: [0, 1, 2, 3],
+        }
+]
 
 
+
+
+function login(email, password) {
+        for (let i = 0; i < users.length; ++i) {
+                if(users[i].email === email) {
+                        if(users[i].password === password) {
+                                console.log ('log the user in - the details are correct')
+                        }
+                        else {
+                                console.log('password is incorrect - try again')
+                        }
+                        return;
+                }
+        }
+        console.log('could not find and email that matches')
+        }
+
+        login('thisdoesnotexist@frontendsimplified.com', 'wrong password')
+
+
+
+
+
+
+
+
+
+
+
+
+
+function register(user) {
+        users.push(user);
+}
+
+register ({
+        username: "Zen",
+        email: "zen@.com",
+        password: "zen123",
+        subscriptionStatus: "VIP",
+        discordId: "zen#0002",
+        lessonsCompleted: [0, 1],
+
+});
+
+console.log (users);
 
 
 
