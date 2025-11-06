@@ -300,8 +300,9 @@
 
 
 
-function changeTitleToRed() {
-        document.querySelector("#title").style.color = 'red'
+function toggleDarkMode() {
+        document.querySelector('body').classList.toggle("dark-theme")
+        console.log
 }
 
 
