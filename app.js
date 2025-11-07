@@ -300,10 +300,10 @@
 
 
 
-function toggleDarkMode() {
-        document.querySelector('body').classList.toggle("dark-theme")
-        console.log
-}
+// function toggleDarkMode() {
+//         document.querySelector('body').classList.toggle("dark-theme")
+//         console.log
+// }
 
 
 
@@ -314,5 +314,25 @@ function toggleDarkMode() {
 
 
 
- 
-// 3:50 2.8 DOM
+//  DOM end above
+
+
+
+
+const emailRef = document.querySelector(".email");
+console.log(emailRef)
+
+
+
+fetch ("https://jsonplaceholder.typicode.com/users/1").then(response =>
+        response.json().then(data => {
+                console.log(data)
+                emailRef.innerHTML = data.name;
+        })
+)
+
+
+
+
+
+// 3.1 promises
