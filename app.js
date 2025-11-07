@@ -319,7 +319,7 @@
 
 
 
-// not clean way below
+// not clean Then way below
 
 // const emailRef = document.querySelector(".email");
 // console.log(emailRef)
@@ -335,20 +335,24 @@
                 
                 
                 
-                // clean way below 
+                // clean Then way below 
                 
                 
-const emailRef = document.querySelector(".email");
+// const emailRef = document.querySelector(".email");
                 
-fetch ("https://jsonplaceholder.typicode.com/users/1")
-                .then((response) => {
-                        return response.json();
-                })
-                .then((data) => {
-                        console.log(data);
-                        emailRef.innerHTML = data.email
-                });
+// fetch ("https://jsonplaceholder.typicode.com/users/1")
+// .then((response) => {
+//         return response.json();
+// })
+// .then((data) => {
+//         console.log(data);
+//         emailRef.innerHTML = data.email
+// });
 
+async function  main() {
+       await fetch ("https://jsonplaceholder.typicode.com/users/1")
+        
+}
 
 
 // 3.1 promises
