@@ -377,5 +377,10 @@ function getSubscriptionStatus() {
                 });
 }
 
+async function main() {
+        const status = await getSubscriptionStatus();
+        statusRef.innerHTML = status;
+}
+main();
 
 // 3.1 promises 22:30
