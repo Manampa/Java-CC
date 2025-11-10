@@ -365,22 +365,66 @@
 
 
 
+// getSubscriptionStatus promise ex below
 
+// const statusRef = document.querySelector(".status");
 
+// function getSubscriptionStatus() {
+        //         return new Promise((resolve,reject) => {
+                //                 setTimeout(() => {
+                        //                         resolve("VIP");
+                        //                 }, 2000);
+//         });
+// }
+
+// async function main() {
+        //         const status = await getSubscriptionStatus();
+        //         statusRef.innerHTML = status;
+        // }
+        // main();
+        
+        // getSubscriptionStatus promise ex above 23:00
+        
+        
+        
+        
 const statusRef = document.querySelector(".status");
-
 function getSubscriptionStatus() {
-        return new Promise((resolve,reject) => {
-                setTimeout(() => {
+        return new Promise((resolve, reject) => {
+                // setTimeout(() => {
                         resolve("VIP");
-                }, 2000);
-                });
+                // }, 2000);
+        });
+}
+
+
+function getVideo (subscriptionStatus) {
+        return new Promise((resolve,reject) => {
+                if (subscriptionStatus === "VIP") {
+                        resolve("show video")
+                }
+                else if (subscriptionStatus === "FREE") {
+                        resolve("show trailer")
+                }
+                else {
+                        reject("No video")
+                }
+                        
+        })
 }
 
 async function main() {
         const status = await getSubscriptionStatus();
         statusRef.innerHTML = status;
+        console.log(getVideo(status))
+        
 }
+
 main();
 
-// 3.1 promises 22:30
+
+
+
+
+
+// 3.1 promises 23:10
