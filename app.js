@@ -388,12 +388,18 @@
         
         
         
+
+// MAIN Promise Example Below with try and catch commented out 27:00
+
 const statusRef = document.querySelector(".status");
+
+// const videoRef = document.querySelector(".video");
+
 function getSubscriptionStatus() {
         return new Promise((resolve, reject) => {
-                // setTimeout(() => {
+                setTimeout(() => {
                         resolve("VIP");
-                // }, 2000);
+                }, 2000);
         });
 }
 
@@ -407,22 +413,29 @@ function getVideo (subscriptionStatus) {
                         resolve("show trailer")
                 }
                 else {
-                        reject("No video")
+                        reject("no video")
                 }
-                        
+                
         })
 }
 
 async function main() {
         const status = await getSubscriptionStatus();
         statusRef.innerHTML = status;
-        console.log(getVideo(status))
-        
-}
-
-main();
-
-
+        // try {
+                console.log(await getVideo(status))
+                // }
+                // catch (e) {
+                        //         console.log(e)
+                        //         videoRef.innerHTML = e;
+                        // }
+                        
+                }
+                
+                main();
+                
+                
+                // MAIN Promise Example Above with try and catch commented out 
 
 
 
